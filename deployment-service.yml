@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: react-app 
-          image: transachnhat/react-app 
+          image: rihabbennour/react-app
           ports:
             - containerPort: 3000 
 
@@ -33,3 +33,4 @@ spec:
     - protocol: TCP
       port: 3000 
       targetPort: 3000 
+      nodePort: 30018
